@@ -2,7 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Bienvenido al menu");
+
 
         lista lista = new lista();
         lista.agregarAlPrincipio(3);
