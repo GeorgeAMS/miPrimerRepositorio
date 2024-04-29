@@ -2,11 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Buenas tardes como me le va.");
+        lista lista = new lista();
+        lista.agregarAlPrincipio(3);
+        lista.agregarAlPrincipio(7);
+        lista.agregarAlPrincipio(9);
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("Numero: " + i);
+        System.out.println("Lista inicial:");
+        lista.imprimirLista();
+
+        // Ejemplo de eliminar un nodo
+        lista.eliminarNodo(7);
+        System.out.println("Lista después de eliminar el nodo con valor 7:");
+        lista.imprimirLista();
+
+        // Ejemplo de búsqueda de un nodo
+        int valorABuscar = 3;
+        if (lista.buscar(valorABuscar)) {
+            System.out.println("El valor " + valorABuscar + " está en la lista.");
+        } else {
+            System.out.println("El valor " + valorABuscar + " no está en la lista.");
         }
-        System.out.println("Rama principal.");
     }
 }
