@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Bienvenido al menu");
-
+        System.out.pintln("Hola como tas")
 
         lista lista = new lista();
         lista.agregarAlPrincipio(3);
