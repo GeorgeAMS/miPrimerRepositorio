@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Bienvenido al menu");
-        System.out.pintln("Hola como tas")
+        System.out.println("Hola como tas");
+        System.out.println("holaaaaaa con ssh");
 
         lista lista = new lista();
         lista.agregarAlPrincipio(3);
@@ -25,6 +26,8 @@ public class Main {
             System.out.println("El valor " + valorABuscar + " está en la lista.");
         } else {
             System.out.println("El valor " + valorABuscar + " no está en la lista.");
+
+            System.out.println("ksajlsdfjdskjhsd con ssh");
         }
     }
 }
